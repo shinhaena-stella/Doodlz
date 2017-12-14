@@ -7,6 +7,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v4.print.PrintHelper;
 import android.util.AttributeSet;
@@ -37,6 +39,8 @@ public class DoodleView extends View{
 
 
 
+
+
     public DoodleView(Context context, AttributeSet attrs) {
         super(context, attrs);
         paintScreen = new Paint();
@@ -57,7 +61,39 @@ public class DoodleView extends View{
 
         setBackgroundColor(0);
         bitmap.eraseColor(backgroundColor); // erase the bitmap background with white -> set opction
+
+        //music
+//        setBgMusic_state(true);
+
+//        bgMusic.setDataSource(this, Uri.parse());
+//        bgMusic = MediaPlayer.create(MainActivity.this, R.raw.bgmusic);
     }
+
+
+    // bgmusic
+
+//    protected void musicPlay(){
+//        bgMusic.reset();
+//        bgMusic.setLooping(true);
+//        bgMusic.start();
+//    }
+//
+//    protected void musicStop(){
+//        bgMusic.stop();
+//    }
+//
+//    Boolean bgMusic_state;
+//
+//    public Boolean getBgMusic_state() {
+//        return bgMusic_state;
+//    }
+//
+//    public void setBgMusic_state(Boolean bgMusic_state) {
+//        this.bgMusic_state = bgMusic_state;
+//    }
+//
+
+
 
     public void clear(){
         pathMap.clear();

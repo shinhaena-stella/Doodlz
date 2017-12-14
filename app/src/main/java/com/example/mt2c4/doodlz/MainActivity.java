@@ -16,6 +16,11 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
 
+    //    MediaPlayer bgMusic;
+    MediaPlayer bgMusic = new MediaPlayer();
+    Boolean bgMusic_state;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,14 +32,42 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getConfiguration().screenLayout &
                         Configuration.SCREENLAYOUT_SIZE_MASK;
 
-        if(screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE)
+        if (screenSize == Configuration.SCREENLAYOUT_SIZE_XLARGE)
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         else
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
-    }
+//        //music
+//        bgMusic = MediaPlayer.create(this, R.raw.bgmusic);
+//
+//    protected void musicPlay() {
+//        bgMusic.reset();
+//        bgMusic.setLooping(true);
+//        bgMusic.start();
+//    }
+//
+//    protected void musicStop() {
+//        bgMusic.stop();
+//    }
+//
+//    public Boolean getBgMusic_state() {
+//        return bgMusic_state;
+//    }
+//
+//    public void setBgMusic_state(Boolean bgMusic_state) {
+//        this.bgMusic_state = bgMusic_state;
+//    }
 
+    //setBgMusic_state(true);
+}
+
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        bgMusic.release();
+    }
 
 
 }

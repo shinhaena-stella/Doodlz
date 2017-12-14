@@ -24,4 +24,16 @@
     <string name="title_back_color_dialog">"Elija el color de fondo "</string>
     <string name="title_color_dialog">"Elige color de línea "</string>
     <string name="title_line_width_dialog">"Elige ancho de línea "</string>
+    <string name="title_feedback_dialog">"Enviar comentarios "</string>
+    <string name="menuitem_feedback">"Enviar comentarios "</string>
+    <string name="message_bgimg">"Agregar una imagen de fondo? "</string>
+    <string name="title_back_img_dialog">"Elige la imagen de fondo "</string>
+    <string name="title_back_music_dialog">"Activar o desactivar la música "</string>
+    <string name="button_send_email">"¡Gracias! "</string>
+    <string name="button_set_bgimg">"Establecer imagen de fondo "</string>
+    <string name="button_set_img">"Establecer imagen de fondo "</string>
+    <string name="compose_email">"Escribir correo "</string>
+    <string name="label_bgmusic">"Música de fondo "</string>
+    <string name="menuitem_back_img">"Imagen de fondo "</string>
+    <string name="menuitem_bgmusic">\"Música de fondo \"</string>
 </resources>

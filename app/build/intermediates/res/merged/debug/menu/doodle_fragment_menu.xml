@@ -57,4 +57,11 @@
         android:icon="@drawable/ic_print_black_24dp"
         app:showAsAction="ifRoom">
     </item>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/menuitem_feedback"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        app:showAsAction="ifRoom">
+    </item>
 </menu>

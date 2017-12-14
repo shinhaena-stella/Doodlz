@@ -31,7 +31,7 @@ public class MainActivityFragment extends Fragment {
     private float lastAcceleration;
     private boolean dialogOnScreen = false;
 
-    MediaPlayer bgMusic;
+//    MediaPlayer bgMusic;
 
 
     // value used to determine whether user shook the device to erase
@@ -59,37 +59,36 @@ public class MainActivityFragment extends Fragment {
         currentAcceleration = SensorManager.GRAVITY_EARTH;
         lastAcceleration = SensorManager.GRAVITY_EARTH;
 
-        //music
-        setBgMusic_state(true);
-        bgMusic = MediaPlayer.create(this, R.raw.bgmusic);
+//        //music
+//        setBgMusic_state(true);
+//        bgMusic = MediaPlayer.create(this, R.raw.bgmusic);
 
         return view;
 
     }
 
 
-    // bgmusic
-
-    protected void musicPlay(){
-        bgMusic.reset();
-        bgMusic.setLooping(true);
-        bgMusic.start();
-
-    }
-
-    protected void musicStop(){
-        bgMusic.stop();
-    }
-
-    Boolean bgMusic_state;
-
-    public Boolean getBgMusic_state() {
-        return bgMusic_state;
-    }
-
-    public void setBgMusic_state(Boolean bgMusic_state) {
-        this.bgMusic_state = bgMusic_state;
-    }
+//    // bgmusic
+//
+//    protected void musicPlay(){
+//        bgMusic.reset();
+//        bgMusic.setLooping(true);
+//        bgMusic.start();
+//    }
+//
+//    protected void musicStop(){
+//        bgMusic.stop();
+//    }
+//
+//    Boolean bgMusic_state;
+//
+//    public Boolean getBgMusic_state() {
+//        return bgMusic_state;
+//    }
+//
+//    public void setBgMusic_state(Boolean bgMusic_state) {
+//        this.bgMusic_state = bgMusic_state;
+//    }
 
 
 
@@ -119,7 +118,7 @@ public class MainActivityFragment extends Fragment {
     public void onPause() {
         super.onPause();
         disableAccelerometerListening(); // stop listening for shake
-        bgMusic.release();
+//        bgMusic.release();
     }
 
     // disable listening for accelerometer events
@@ -212,10 +211,14 @@ public class MainActivityFragment extends Fragment {
                 BackImgDialogFragment image = new BackImgDialogFragment();
                 image.show(getFragmentManager(), "background image dialog");
                 return true;
-            case R.id.music:
-                MusicDialogFragment music = new MusicDialogFragment();
-                music.show(getFragmentManager(), "background music dialog");
+            case R.id.feedback:
+                FeedbackFragment feedbackDialog = new FeedbackFragment();
+                feedbackDialog.show(getFragmentManager(), "feedback dialog");
                 return true;
+//            case R.id.music:
+//                MusicDialogFragment music = new MusicDialogFragment();
+//                music.show(getFragmentManager(), "background music dialog");
+//                return true;
         }
 
         return super.onOptionsItemSelected(item);

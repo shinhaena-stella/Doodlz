@@ -24,4 +24,16 @@
     <string name="label_blue">블루</string>
     <string name="label_green">녹색</string>
     <string name="label_red">빨강</string>
+    <string name="menuitem_bgmusic">\"배경 음악 \"</string>
+    <string name="button_send_email">고맙습니다</string>
+    <string name="button_set_bgimg">\"배경 이미지 설정 \"</string>
+    <string name="button_set_img">\"배경 이미지 설정 \"</string>
+    <string name="compose_email">\"이메일 작성 \"</string>
+    <string name="label_bgmusic">\"배경 음악 \"</string>
+    <string name="menuitem_back_img">"배경 이미지 "</string>
+    <string name="menuitem_feedback">"의견 보내기 "</string>
+    <string name="message_bgimg">"배경 이미지를 추가 하시겠습니까? "</string>
+    <string name="title_back_img_dialog">"배경 이미지 선택 "</string>
+    <string name="title_back_music_dialog">"음악 켜기 또는 끄기 "</string>
+    <string name="title_feedback_dialog">"의견 보내기 "</string>
 </resources>

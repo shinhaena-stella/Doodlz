@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name" translatable="false">Doodlz</string>
-    <string name="splash">CISC207 Final Project - Shinhae Na</string>
+    <string name="splash" translatable="false">CISC207 Final Project - Shinhae Na</string>
     <string name="action_settings">Settings</string>
     <string name="button_erase">Erase Image</string>
     <string name="button_set_color">Set Color</string>
     <string name="button_set_img">Set Background Image</string>
     <string name="button_set_line_width">Set Line Width</string>
     <string name="button_set_bgimg">Set Background Image</string>
+    <string name="button_send_email">Thank You!</string>
     <string name="line_imageview_description">This displays the line thickness</string>
     <string name="label_alpha">Alpha</string>
     <string name="label_red">Red</string>
@@ -21,6 +22,7 @@
     <string name="menuitem_save">Save</string>
     <string name="menuitem_print">Print</string>
     <string name="menuitem_bgmusic">Background Music</string>
+    <string name="menuitem_feedback">Send Feedback</string>
     <string name="message_erase">Erase the drawing?</string>
     <string name="message_bgimg">Add a background image?</string>
     <string name="message_error_saving">There was an error saving the image</string>
@@ -32,9 +34,6 @@
     <string name="title_line_width_dialog">Choose Line Width</string>
     <string name="title_back_music_dialog">Turn On or Off Music</string>
     <string name="title_feedback_dialog">Send Feedback</string>
-
-
-
     <string name="permission_explanation">To save an image, the app requires permission to write to external storage</string>
     <string name="compose_email">Compose Email</string>
 </resources>
