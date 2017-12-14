@@ -9,6 +9,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -21,12 +22,17 @@ import android.view.ViewGroup;
 /**
  * A placeholder fragment containing a simple view.
  */
+
+
 public class MainActivityFragment extends Fragment {
     private DoodleView doodleView; // handles touch events and draws
     private float acceleration;
     private float currentAcceleration;
     private float lastAcceleration;
     private boolean dialogOnScreen = false;
+
+    MediaPlayer bgMusic;
+
 
     // value used to determine whether user shook the device to erase
     private static final int ACCELERATION_THRESHOLD = 100000;
@@ -52,8 +58,41 @@ public class MainActivityFragment extends Fragment {
         acceleration = 0.00f;
         currentAcceleration = SensorManager.GRAVITY_EARTH;
         lastAcceleration = SensorManager.GRAVITY_EARTH;
+
+        //music
+        setBgMusic_state(true);
+        bgMusic = MediaPlayer.create(this, R.raw.bgmusic);
+
         return view;
+
     }
+
+
+    // bgmusic
+
+    protected void musicPlay(){
+        bgMusic.reset();
+        bgMusic.setLooping(true);
+        bgMusic.start();
+
+    }
+
+    protected void musicStop(){
+        bgMusic.stop();
+    }
+
+    Boolean bgMusic_state;
+
+    public Boolean getBgMusic_state() {
+        return bgMusic_state;
+    }
+
+    public void setBgMusic_state(Boolean bgMusic_state) {
+        this.bgMusic_state = bgMusic_state;
+    }
+
+
+
 
     // start listening for sensor events
     @Override
@@ -80,6 +119,7 @@ public class MainActivityFragment extends Fragment {
     public void onPause() {
         super.onPause();
         disableAccelerometerListening(); // stop listening for shake
+        bgMusic.release();
     }
 
     // disable listening for accelerometer events
@@ -166,7 +206,15 @@ public class MainActivityFragment extends Fragment {
                 return true; // consume the menu event
             case R.id.back_color:
                 BackColorDialogFragment backColorDialog = new BackColorDialogFragment();
-                backColorDialog.show(getFragmentManager(), "background dialog");
+                backColorDialog.show(getFragmentManager(), "background color dialog");
+                return true;
+            case R.id.back_img:
+                BackImgDialogFragment image = new BackImgDialogFragment();
+                image.show(getFragmentManager(), "background image dialog");
+                return true;
+            case R.id.music:
+                MusicDialogFragment music = new MusicDialogFragment();
+                music.show(getFragmentManager(), "background music dialog");
                 return true;
         }
 

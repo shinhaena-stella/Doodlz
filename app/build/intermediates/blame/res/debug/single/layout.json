@@ -24,12 +24,12 @@
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -124,12 +124,20 @@
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_back_music.xml",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\src\\main\\res\\layout\\fragment_back_music.xml"
+    },
+    {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -214,6 +222,10 @@
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_back_img.xml",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\src\\main\\res\\layout\\fragment_back_img.xml"
     },
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

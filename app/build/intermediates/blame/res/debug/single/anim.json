@@ -48,6 +48,10 @@
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\anim\\design_snackbar_out.xml"
     },
     {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_transition.xml",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\src\\main\\res\\anim\\splash_transition.xml"
+    },
+    {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },

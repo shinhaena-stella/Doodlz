@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_colorize_black_24dp.png",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_colorize_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_save_black_24dp.png",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_save_black_24dp.png"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_delete_black_24dp.png",
         "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_notifications_active_black_24dp.png",
+        "source": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_active_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\mt2c4\\Desktop\\Doodlz\\Doodlz\\Doodlz\\Doodlz\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_color_lens_black_24dp.png",

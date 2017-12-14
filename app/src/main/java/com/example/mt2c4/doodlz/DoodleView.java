@@ -36,6 +36,7 @@ public class DoodleView extends View{
     private int backgroundColor;
 
 
+
     public DoodleView(Context context, AttributeSet attrs) {
         super(context, attrs);
         paintScreen = new Paint();
@@ -251,7 +252,6 @@ public class DoodleView extends View{
             message.show();
         }
     }
-
 
 
 }
